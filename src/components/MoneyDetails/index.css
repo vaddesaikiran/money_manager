@@ -1,0 +1,69 @@
+.md-container {
+  /* height: 18vh; */
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .md-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.md-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  /* height: 18vh; */
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .md-card {
+    width: 30%;
+    /* height: 18vh; */
+  }
+}
+.balance {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+
+.income {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expenses {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+.md-img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.md-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.md-description-text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #475569;
+  margin: 0;
+}
+
+.md-description-amount {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+}

@@ -1,0 +1,38 @@
+.money-transaction-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mt-list-container {
+  margin: 0;
+  padding: 0;
+}
+
+.mt-list-text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  width: 26%;
+}
+
+.mt-list-header {
+  font-weight: 600;
+}
+
+.mt-list-item-data {
+  border-top: 0;
+}
+
+.delete-btn {
+  background-color: #fff;
+  border: 0;
+  width: 20%;
+}
+
+.delete-img {
+  height: 20px;
+}
